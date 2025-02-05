@@ -18,6 +18,7 @@ con_per = 100*con
 print("confidence: ")
 print(con)
 print("confidence percentage: ")
+print(con_per)
 
 avg = stat.mean(test_data)
 print("mean: ")
