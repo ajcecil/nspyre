@@ -23,6 +23,7 @@ This project should continure to expand and grow with changes in structure to op
 To install the module download [nspyre_compiler.tns](https://github.com/ajcecil/nspyre/blob/main/ti-files/nspyre_compiler.tns) to you calculator then on the calculator open the file and go to Menu -> Actions -> Install as Python module (Or menu -> 1 -> 7)
 
 ## Accessing nspyre module
+### Importing all nspyre functions
 To access the module open a python file on the calculator and go to menu -> More Modules (menu -> A) and you should see the nspyre module as an option on the list. If you select the module from this list the calculator auto-imports all functions in the module, using:
 ```python
 from nspyre import *
@@ -33,6 +34,7 @@ data = [2,5,3,8,3]
 median(data)
 ```
 
+### Importing npsyre function classes individually
 To import the statistics functions alone, the above statement can be modified to:
 ```python
 from nspyre import statistics
